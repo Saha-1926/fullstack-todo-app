@@ -1,7 +1,7 @@
 import './App.css';
 import HeaderComponent from './component/headercomponent';
 import FooterComponent from './component/footercomponent';
-import ListTodoComponent from './component/listtodocomponent';
+import ListTodoComponent from './component/ListTodoComponent';
 import TodoComponent from './component/TodoComponent';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
