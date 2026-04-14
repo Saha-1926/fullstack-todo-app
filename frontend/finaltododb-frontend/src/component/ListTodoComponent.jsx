@@ -81,7 +81,11 @@ const ListTodoComponent = () => {
               <td>
                 <button
                   className="btn btn-danger"
-                  onClick={() => handleDelete(todo.id)}
+                  onClick={() => {
+  if (window.confirm("Are you sure you want to delete?")) {
+    handleDelete(todo.id);
+  }
+}}
                 >
                   Delete
                 </button>
